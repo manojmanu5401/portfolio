@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       boxShadow: {
         innerShadow: "inset 0 0 0 9px rgb(255 255 255/30%)",
+        innerShadowDark: "inset 0 0 0 9px rgb(25 25 25/50%)"
       },
       keyframes: {
         circle: {

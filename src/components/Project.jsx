@@ -7,7 +7,7 @@ const projects = [
     proName: "TravelNest",
     proDescription:
       "An online hotel reservation platform called travelNest enables users to reserve rooms at a variety of opulent hotels in India. The website provides an interface for Searching, Filtering and Booking a hotel.",
-    techStack: ["react.png", "tailwindCss.jpg"],
+    techStack: ["react.png", "tailwindCss.png"],
     gitHub: "https://github.com/manojmanu5401/hotel-booking",
     demo: "https://travelnest-five.vercel.app/",
     image: "travelNestweb.png",
@@ -28,9 +28,9 @@ const projects = [
 export default function Project() {
   return (
     <>
-      <section className="mx-auto max-w-7xl pt-44 py-4 px-4 sm:px-6 lg:px-8"  id="project"> 
+      <section className="mx-auto max-w-7xl pt-44 py-4 px-4 sm:px-6 lg:px-8  dark:bg-[#191919]"  id="project"> 
         <div className="mx-5 xl:mx-24">
-          <h1 className="relative text-3xl font-bold lg:text-start text-center">
+          <h1 className="relative text-3xl font-bold lg:text-start text-center dark:text-gray-400">
             Protfolio
           </h1>
           <h6 className="text-[#F3A3A5] font-medium mt-2 lg:text-start text-center ">

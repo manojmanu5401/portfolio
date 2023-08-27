@@ -1,3 +1,4 @@
+import React, {useState} from  'react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -9,15 +10,16 @@ import ScrollUp from './components/ScrollUp';
 import Services from './components/Services';
 
 function App() {
+  const [darkTheme, setDarkTheme] = useState(false);
   return (
     <>
-    <NavBar/>
+    <NavBar theme={darkTheme} setDarkTheme={setDarkTheme}/>
     <Home/>
     <About/>
     <Services/>
     <Project/>
     <Contact/>
-    <Footer/>
+    <Footer theme={darkTheme}/>
     <ScrollUp/>
     </>
   );
