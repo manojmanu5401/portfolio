@@ -15,7 +15,7 @@ export default function Footer(props) {
           <a className="text-gray-500 dark:text-gray-400 hover:dark:text-white hover:text-[#000] text-2xl" href="https://www.linkedin.com/in/manoj-sai-6582a0205/" target="_blank" rel="noreferrer">
           <i className='bx bxl-linkedin'></i>
           </a>
-          <a className="text-gray-500 dark:text-gray-400 hover:dark:text-white hover:text-[#000] text-2xl" href="https://www.instagram.com/_manoj_5401/" target="_blank" rel="noreferrer">
+          <a className="text-gray-500 dark:text-gray-400 hover:dark:text-white hover:text-[#000] text-2xl" href="https://www.instagram.com/strawhat.dev/" target="_blank" rel="noreferrer">
           <i className='bx bxl-instagram'></i>
           </a>
           <a className="text-gray-500 dark:text-gray-400 hover:dark:text-white hover:text-[#000] text-2xl" href="https://github.com/manojmanu5401" target="_blank" rel="noreferrer">

@@ -33,7 +33,7 @@ export default function Contact() {
                 <h2 className="text-xl font-bold dark:text-gray-400">Instagram</h2>
                 <p className="font-light mb-5 dark:text-gray-500">manojmanu5401</p>
                 <div className="flex justify-center items-center space-x-1 dark:text-gray-400">
-                  <a href="https://www.instagram.com/_manoj_5401/" target="_blank" rel="noreferrer" className="">
+                  <a href="https://www.instagram.com/strawhat.dev/" target="_blank" rel="noreferrer" className="">
                     Ping me
                   </a>
                   <i className="bx bx-right-arrow-alt"></i>
